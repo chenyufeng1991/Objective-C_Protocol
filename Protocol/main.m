@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
-      // insert code here...
-      NSLog(@"Hello, World!");
+    
+    Person *jack = [[Person alloc] init];
+
+    [jack requiredMethod];
+    [jack optionalMethod];
+    
+    
   }
-    return 0;
+  return 0;
 }
