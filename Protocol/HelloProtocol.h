@@ -18,5 +18,4 @@
 @optional
 - (void)optionalMethod;
 
-
 @end

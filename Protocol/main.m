@@ -13,11 +13,8 @@ int main(int argc, const char * argv[]) {
   @autoreleasepool {
     
     Person *jack = [[Person alloc] init];
-
     [jack requiredMethod];
     [jack optionalMethod];
-    
-    
   }
   return 0;
 }

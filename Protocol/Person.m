@@ -11,12 +11,10 @@
 @implementation Person
 
 - (void)requiredMethod{
-
   NSLog(@"requiredMethod——必须实现的方法");
 }
 
 - (void)optionalMethod{
-
   NSLog(@"optionalMethod——选择实现的方法");
 }
 
